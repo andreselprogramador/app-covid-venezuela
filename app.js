@@ -19,7 +19,7 @@ async function obtenerDatos(){
     try{
         estadosAfectados.push(datosObtenidos.Confirmed.ByState);
         positivos.innerHTML = `<p class="verde" id="positivos">${datosObtenidos.Confirmed.Count}</p>`;
-        activos.innerHTML = `<p class="verde" id="positivos">${datosObtenidos.Active.Count}</p>`;
+        activos.innerHTML = `<p class="morado" id="positivos">${datosObtenidos.Active.Count}</p>`;
         recuperados.innerHTML = `<p class="azul" id="recuperados">${datosObtenidos.Recovered.Count}</p>`;
         fallecidos.innerHTML = `<p class="rojo" id="fallecidos">${datosObtenidos.Deaths.Count}</p>`;
         masculino.innerHTML = `<p>Masculino: <span id="masculinos">${datosObtenidos.Confirmed.ByGender.male}</span> <span class="casos">casos</span></p>`;
