@@ -25,7 +25,7 @@ header{
 img{
     margin: 10px auto;
     display: block;
-    width: 100%;
+    width: 400px;
 }
 
 nav{
@@ -106,6 +106,10 @@ main{
 
 .contenedor-estadisticas .info .rojo{
     color: #D63D2E;
+}
+
+.contenedor-estadisticas .info .morado{
+    color: blueviolet;
 }
 
 .contenedor-estadisticas .list{
@@ -189,11 +193,16 @@ footer{
 .informacion .post h3 a{
     text-decoration: none;
     color: #ffffff;
-    font
 }
 
 @media only screen and (max-width: 852px) {
-    .contenedor-estadisticas .info{
+    .contenedor-estadisticas .info {
         width: 100%;
-    }
+    }    
+  }
+
+@media only screen and (max-width: 425px) {
+    img{
+        width: 100%;
+    }    
   }
